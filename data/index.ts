@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Story", link: "#Story" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "Smart Shift AI – AI-Powered Workforce Scheduling System (Time Series Forecasting)",
     des: "Smart Shift AI uses time series forecasting to optimize workforce scheduling, improving efficiency and reducing labor costs.",
-    img: "/p1.svg",
+    img: "/smartshift.jpg",
     iconLists: ["/Python.svg", "/sql.svg", "/docker.svg", "/tensorflow.svg", "/vscode.svg"],
     link: "https://github.com/sagarr4/SmartShift",
   },
@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "AI-Powered-Flight-Booking-Chatbot",
     des: "An intelligent flight booking chatbot with both Web UI and Command Line Interface. Supports natural conversations, city name recognition, booking logic, and email confirmations.",
-    img: "/p2.svg",
+    img: "/chatbot.jpeg",
     iconLists: ["/Python.svg", "/sql.svg", "/docker.svg", "/tensorflow.svg", "/vscode.svg"],
     link: "https://github.com/sagarr4/AI-Powered-Flight-Booking-Chatbot",
   },
@@ -90,7 +90,7 @@ export const projects = [
     id: 3,
     title: "Smart-Waste-Classification",
     des: "The increasing volume of waste and ineffective manual sorting methods challenge sustainability goals. To address this, an AI-assisted waste sorting model is proposed to automate the classification of waste into recyclable, compostable, and garbage categories, enhancing recycling efficiency and supporting sustainable waste management.",
-    img: "/p3.svg",
+    img: "/wasteclassification.jpeg",
     iconLists: ["/Python.svg", "/sql.svg", "/docker.svg", "/tensorflow.svg", "/vscode.svg"],
     link: "https://github.com/sagarr4/Smart-Waste-Classification-A-TensorFlow-and-Kera-s-Powered-Framework-Using-Advanced-Computer-Vision",
   },
@@ -98,44 +98,36 @@ export const projects = [
     id: 4,
     title: "Animal Species Recognition",
     des: "This project applies advanced neural network architectures to enhance the accuracy of animal species recognition using image classification.",
-    img: "/p4.svg",
+    img: "/animal.jpeg",
     iconLists: ["/Python.svg", "/sql.svg", "/docker.svg", "/tensorflow.svg", "/vscode.svg"],
     link: "https://github.com/sagarr4/CNN-Architectures-for-High-Accuracy-Animal-Species-Recognition-through-Advanced-TL-Techniques",
   },
 ];
 
-export const testimonials = [
+export const Story = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "My journey started with a Bachelor of Science in Information Technology, where I developed a strong foundation in programming and data management. The coursework challenged me to think critically and solve problems effectively. This solid academic background set the stage for my passion in data and analytics.",
+    img: "/bachelor.webp",
+    name: "Bachelor's Degree",
+    title: "Mumbai University",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "After graduation, I stepped into the professional world as a Junior Application Developer, where I gained hands-on experience working on real projects. This role helped me sharpen my technical skills and understand how data-driven solutions impact business outcomes. It was an invaluable period of growth and learning.",
+    img: "/scoopsense.png",
+    name: "Professional Experience",
+    title: "Jr. Application Developer at Scoopsense",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "To deepen my expertise, I pursued a Post Baccalaureate Diploma in Applied Data Science, focusing on machine learning, AI, and advanced analytics. This program allowed me to blend theory with practical applications and expand my problem-solving toolkit. Now, I’m excited to apply these skills to build impactful solutions that drive smarter decisions.",
+    img: "/tru.png",
+    name: "Post Baccalaureate Diploma",
+    title: "Thompson Rivers University",
   },
 ];
+
 
 export const companies = [
   {
@@ -173,31 +165,10 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    title: "Jr. Application Developer – Scoopsense",
+    desc: `Collaborated closely with users to gather requirements and design full-stack web applications using .NET (C#) and JavaScript, which improved user engagement by 20%.
+Managed end-to-end development lifecycle including coding, testing, and deployment, ensuring high-quality deliverables and timely releases.`,
+    thumbnail: "/scoopsense.svg",
   },
 ];
 
@@ -207,12 +178,6 @@ export const socialMedia = [
     img: "/git.svg",
     url: "https://github.com/sagarr4",
     alt: "GitHub",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-    url: "https://twitter.com/yourusername",
-    alt: "Twitter",
   },
   {
     id: 3,
